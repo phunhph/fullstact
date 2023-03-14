@@ -1,0 +1,16 @@
+﻿@model fullstackCsharp.Models.Staff
+@{
+    var staffs = ViewData["staffs"] as List<Staff>;
+}
+<div>
+    <h4>Staff</h4>
+    <hr />
+    <dl class="row">
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+    @staffs[0].name_NV
+    @*hiển thị ra màn hình lấy dữ liệu từ models*@
+</div>
