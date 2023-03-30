@@ -1,4 +1,13 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\DAO",
+    "\\Views",
+    "\\Views\\Home",
+    "\\Views\\Phus",
+    "\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Views\\Home\\Privacy.cshtml",
   "PreviewInSolutionExplorer": true
 }
